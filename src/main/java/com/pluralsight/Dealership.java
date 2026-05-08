@@ -73,7 +73,7 @@ public class Dealership {
 
     // Add & Remove Methods
     public void addVehicle(Vehicle vehicle){
-
+        inventory.add(vehicle);
     }
     public void removeVehicle(){
 

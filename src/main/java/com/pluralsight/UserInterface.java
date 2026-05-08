@@ -55,20 +55,28 @@ public class UserInterface {
 
     private void displayVehicles(List<Vehicle> vehicles){
         for (Vehicle v : vehicles){
-            System.out.println(v);
+            System.out.printf("%d |%d |%s |%s |%s |%s |%d |%.2f\n",v.getVin(),v.getYear(),v.getMake(),v.getModel(),v.getVehicleType(),v.getColor(),v.getOdometer(),v.getPrice());
         }
     }
 
     public void processGetByPriceRequest(){}
+
     public void processGetByMakeModelRequest(){}
+
     public void processGetByYearRequest(){}
+
     public void processGetByColorRequest(){}
+
     public void processGetByMileageRequest(){}
+
     public void processGetByVehicleTypeRequest(){}
+
     public void processGetAllVehicleRequest(){
         List<Vehicle> vehicles = dealership.getAllVehicles();
         displayVehicles(vehicles);
     }
+
     public void processAddVehicleRequest(){}
+
     public void processRemoveVehicleRequest(){}
 }

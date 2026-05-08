@@ -7,10 +7,6 @@ import java.io.IOException;
 import java.util.regex.Pattern;
 
 public class DealershipFileManager {
-    // read dealership file
-    //parse data and create a dealership object and create each
-    // vehicle to be added to the dealership inventory
-    // save dealership and vechicles in file using | delimeter
 
     public Dealership getDealership() {
         Dealership dealership = null;
