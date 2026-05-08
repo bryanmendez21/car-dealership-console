@@ -72,7 +72,7 @@ public class Dealership {
     }
 
     // Add & Remove Methods
-    public void addVehicle(){
+    public void addVehicle(Vehicle vehicle){
 
     }
     public void removeVehicle(){
