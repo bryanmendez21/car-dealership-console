@@ -68,7 +68,7 @@ public class Dealership {
 
     // All Method
     public List<Vehicle> getAllVehicles(){
-        return null;
+        return inventory;
     }
 
     // Add & Remove Methods
