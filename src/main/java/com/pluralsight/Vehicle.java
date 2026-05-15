@@ -18,6 +18,7 @@ public class Vehicle {
         this.color = color;
         this.odometer = odometer;
         this.price = price;
+
     }
 
     // Vin Getter and Setter
